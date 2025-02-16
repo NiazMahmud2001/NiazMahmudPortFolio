@@ -1,0 +1,38 @@
+.page2{
+    position: relative;
+    width: 100vw;
+    height: 51vw;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid white;
+    overflow-x: hidden;
+    border-bottom: 3px solid #ffffff;
+}
+.page2>.page2MyVid{
+    position: relative;
+    height: 60%;
+    width: 60%;
+    object-fit: cover;
+}
+.page2>div{
+    position: absolute;
+    z-index: 100;
+    bottom: 5%;
+    left: 6%;
+    color: white;
+    font-size: 2vh;
+    font-weight: 100;
+}
+@media screen and (max-width: 1025px){
+    .page2{
+       width: 100vw;
+       height: 80vh;
+    }
+    .page2>.page2MyVid{
+       width: 70%;
+       height: 70%;
+    }
+}
+ 

@@ -1,0 +1,44 @@
+#page2{
+    position: absolute;
+    width: 53px;
+    height: 170px;
+    right: calc(100% - 53px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100000;
+}
+
+#page2>.page2_container{
+    position: relative;
+    font-family: 'Tajawal', sans-serif;
+    width: 53px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 5px;
+    background-color: white;
+}
+#page2>.page2_container>.page2_top_text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#page2>.page2_container>.page2_top_text>.imgDsg{
+    width: 30px;
+    height: 40px;
+    border-radius: 10px;
+}
+#page2>.page2_container>.page2_bottom_text{
+    position: relative;
+    padding-bottom: 20px;
+}
+#page2>.page2_container>.page2_bottom_text>h3{
+    font-size: 15px;
+    transform-origin: 50% 50%;
+    transform: rotateZ(270deg);
+
+ }

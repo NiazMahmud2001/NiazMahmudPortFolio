@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+/* font-family: 'Freehand', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+.page10{
+    position: relative;
+    width: 100vw;
+    height: 12vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(15, 15, 15);
+    padding-top: 2vh;
+}
+.footer_bg {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+.footer_bg_two {
+    background: url("../../assets/cyclist.gif") no-repeat center center;
+    width: 4vw;
+    height: 4vw;
+    background-size: 100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+    z-index: 10000;
+}
+@media screen and (max-width:600px){
+    .footer_bg .footer_bg_two {
+        width: 12vw;
+        height:12vw;
+    }
+}
+
+@-moz-keyframes myfirst {
+    0% {
+        left: -25%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes myfirst {
+    0% {
+        left: -25%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes myfirst {
+    0% {
+        left: -25%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+
+.pg10Behind{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pg10Behind>.pg10BehindInner{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.pg10Behind>.pg10BehindInner>div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    font-size: 20px;
+}
+.pg10Behind>.pg10BehindInner>.pg10CopyRight{
+    justify-content: flex-start;
+}
+
+.pg10Behind>.pg10BehindInner>.pg10textBoxComm>p>span{
+    color: rgb(66, 172, 66);
+    font-family: 'Freehand', cursive;
+}
+.pg10Behind>.pg10BehindInner>.pg10ScrollToTop{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pg10Behind>.pg10BehindInner>.pg10ScrollToTop>.scrollTopText{
+    margin-right: 30px;
+}
+
+.pg10Behind>.pg10BehindInner>.pg10ScrollToTop>.scrollTopAnim>.page10MyImg{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+@media (min-width:1080px) and (max-width:1500px){
+    .pg10Behind>.pg10BehindInner>div{
+        font-size: 1.3vw;
+    }
+    .pg10Behind>.pg10BehindInner>.pg10textBoxComm>p>span{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width:1079px){
+    .page10{
+        height: 15vh;
+    }
+    .pg10Behind>.pg10BehindInner{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pg10Behind>.pg10BehindInner>div{
+        width: 100%;
+        height: 30%;
+        font-size: 20px;
+    }
+    .pg10Behind>.pg10BehindInner>div{
+        font-size: 2.5vw;
+    }
+    .pg10Behind>.pg10BehindInner>.pg10textBoxComm>p>span{
+        font-size: 3.5vw;
+    }
+    .pg10Behind>.pg10BehindInner>.pg10CopyRight{
+        justify-content: center;
+    }
+    .pg10Behind>.pg10BehindInner>.pg10ScrollToTop{
+        justify-content: center;
+    }
+    .pg10Behind>.pg10BehindInner>.pg10ScrollToTop>.scrollTopText{
+        margin-right: 10px;
+    }
+    .pg10Behind>.pg10BehindInner>.pg10ScrollToTop>.scrollTopAnim>.page10MyImg{
+        width: 40px;
+        height: 40px;
+    }
+}

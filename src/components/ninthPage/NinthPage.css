@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+/* font-family: 'Raleway', cursive; */
+
+.page9{
+    position: relative;
+    width: 100vw;
+    height: 105vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway', cursive;
+    background-color: black;
+    padding-top: 2vh;
+}
+.page9_border_top{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 50%;
+    transform-origin: center center;
+    transform: translate(-50% , 0);
+    background-color: rgb(255, 255, 255);
+    width: 0vw;
+    height: 2px;
+}
+.pg9Container{
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    padding-top: 2%;
+    margin-left: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* background-color: rgb(75, 75, 75); */
+}
+
+.pg9Container>.pg9MyProjectText{
+    position: relative;
+    height: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg9Container>.pg9MyProjectTex>.page9MyImgTop{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 50%;
+}
+.pg9Container>.pg9MyProjectText>.btn-shine {
+    position: relative;
+    color: #fff;
+    background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+    background-position: 0 0;
+    background-clip: text;
+    color: transparent;
+    animation: shine 13s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 3vw;
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid white;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 200vw 0; 
+    }
+}
+
+
+
+.pg9Container>.pg9FormContainer{
+    position: relative;
+    width: 85%;
+    height: 80%;
+    padding: 3%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: rgba(49, 49, 49, 0.5);
+}
+.pg9Container>.pg9FormContainer>.pg9MyProjectSvg{
+    position: relative;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    /* background-color: red; */
+}
+
+.pg9Container>.pg9FormContainer>.pg9MyProjectSvg>svg{
+    width: 100%;
+    height: 100%;
+    /* transform: translateY(10%); */
+    transform: translateY(90%);
+    opacity: 0;
+}
+
+
+.pg9Container>.pg9FormContainer>.pg9ExpCards{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    /* background-color:aquamarine */
+}
+
+
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    /* background-color: red; */
+}
+
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop{
+    position: relative;
+    height: 20%;
+    padding-left: 5%;
+
+    /* background-color: black; */
+}
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText1{
+    font-size: 1.7vw;
+    line-height: 300%;
+    color: rgb(194, 194, 194);
+    font-weight: 900;
+}
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText2{
+    font-size: 1.3vw;
+    font-weight: 900;
+    line-height: 200%;
+    color: rgb(194, 194, 194);
+}
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText3{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgb(194, 194, 194);
+}
+
+
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightBottom{
+    position: relative;
+    height: 80%;
+    overflow: hidden;
+}
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightBottom>.page9MyImg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+
+    /* background-color:green; */
+}
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont>.pg9LeftTop{
+    position: relative;
+    width: 95%;
+    height: 70%;
+    border-radius: 15px;
+    border: 3px solid white;
+    padding: 4%;
+    animation: formBorder 2s linear 0s infinite alternate;
+    /* background-color:blue; */
+}
+@keyframes formBorder {
+    0%{
+        border: 3px solid white;
+    }
+    50%{
+        border: 3px solid yellow;
+    }
+    100%{
+        border: 3px solid rgb(102, 102, 102);
+    }
+}
+
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data{
+    position: relative;
+    width: 85%;
+    height: 20%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data>input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    color: white;
+}
+
+
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data{
+    position: relative;
+    width: 100%;
+    height: 65%;
+}
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>textarea{
+    display: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    color: white;
+}
+
+
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data>input:focus ~ label,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>textarea:focus ~ label,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data>input:valid ~ label,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>textarea:valid ~ label{
+    transform: translateY(-25px);
+    font-size: 14px;
+    color: #ffffff;
+}
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data>input:focus,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>textarea:focus,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data>input:valid,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>textarea:valid{
+    outline: none;
+}
+
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>textarea{
+    resize: none;
+    padding-top: 10px;
+}
+
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>label,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data>label{
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    top: 0;
+    left: 0;
+}
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data>.pg9_underline,
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data>.pg9_underline{
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+}
+.pg9_input_data>.pg9_underline:before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.userNameEmail>.pg9_input_data>input:focus ~ .pg9_underline:before,
+.userText>.pg9_input_data>textarea:focus ~ .pg9_underline:before,
+.userNameEmail>.pg9_input_data>input:valid ~ .pg9_underline:before,
+.userText>.pg9_input_data>textarea:valid ~ .pg9_underline:before{
+    transform: scale(1);
+}
+
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_btn{
+    position: relative;
+    height: 25%;
+}
+.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_btn>input{
+    position: absolute;
+    height: 80%;
+    width: 120px;
+    bottom: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+@media (min-width:900px) and (max-width:1024px){
+    .pg9Container>.pg9FormContainer>.pg9MyProjectSvg{
+        height: 6.25vw
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont{
+        justify-content: center;
+        width: 45%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop{
+        height: 20%;
+        padding-left: 0%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText1{
+        font-size: 2.4vw;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText2{
+        font-size: 2vw;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText3{
+        font-size: 1.5vw;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightBottom{
+        height: 55%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightBottom>.page9MyImg{
+        width: 100%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont{
+        width: 60%;
+    }
+
+}
+@media screen and (max-width:899px){
+    .page9{
+        height: 125vh;
+    }
+    .pg9Container>.pg9FormContainer>.pg9MyProjectSvg{
+        height: 7.5vw
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding: 2%;
+        /* background-color:aquamarine */
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont{
+        width: 100%;
+        height: 55%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop{
+        width: 100%;
+        height: 0%;
+        padding-top: 5%;
+        padding-left: 0%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: black; */
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText1{
+        font-size: 3.5vw;
+        line-height: 200%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText2{
+        font-size: 2.5vw;
+        line-height: 200%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText3{
+        font-size: 2vw;
+        line-height: 100%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightBottom{
+        height: 70%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightBottom>.page9MyImg{
+        width: 100%;
+    }
+
+
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont{
+        width: 100%;
+        height: 45%;
+        /* background-color:green; */
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont>.pg9LeftTop{
+        width: 100%;
+        height: 75%;
+        padding: 4%;
+    }
+
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail{
+        height: 50%;
+    }
+    .pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userNameEmail>.pg9_input_data{
+        width: 100%;
+    }
+
+    .pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText{
+        height: 50%;
+    }
+    .pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_data{
+        position: relative;
+        width: 100%;
+        height: 50%;
+    }
+    .pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_btn{
+        height: 30%;
+    }
+    .pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_btn>input{
+        width: 100px;
+        font-size: 16px;
+    }
+    .pg9Container>.pg9MyProjectText>.btn-shine {
+        font-size: 5vw;   
+    }
+    
+}
+@media screen and (max-width:600px){
+    .page9{
+        padding-top: 0vh;
+    }
+    .pg9Container{
+        padding-top: 0%;
+    }
+    .pg9Container>.pg9FormContainer{
+        height: 90%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9MyProjectSvg{
+        margin-top: 10%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightBottom{
+        height: 80%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9LeftCont{
+        width: 100%;
+        height: 65%;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText1{
+        font-size: 4.5vw;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText2{
+        font-size: 3.8vw;
+    }
+    .pg9Container>.pg9FormContainer>.pg9ExpCards>.pg9RightCont>.pg9RightTop>.pg9rightText3{
+        font-size: 3vw;
+    }
+
+    .pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_btn{
+        height: 25%;
+    }
+    .pg9ExpCards>.pg9LeftCont>.pg9LeftTop>form>.userText>.pg9_input_btn>input{
+        width: 20vw;
+        font-size: 3vw;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

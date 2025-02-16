@@ -1,0 +1,38 @@
+#cursor_circle{
+   position: absolute; 
+   pointer-events: none; 
+   width: 14px;
+   height: 14PX; 
+   border-radius: 50%;
+   background-color: white;
+   mix-blend-mode: exclusion; 
+   z-index: 999999999999999999;
+}
+.resp_sir{
+   font-family: 'Tajawal', sans-serif;
+   font-size: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.resp_sir_show{
+   display: none;
+}
+
+#page4_img_show{
+   position: absolute;
+   pointer-events: none;
+   width: 240px;
+   height: 250PX;
+   background-color: rgb(110, 0, 236);
+   display: none;
+   opacity: 0;
+   /* transform: scale(0); */
+   z-index: 1000000000;
+}
+#page4_img_show>img{
+   pointer-events: none;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
