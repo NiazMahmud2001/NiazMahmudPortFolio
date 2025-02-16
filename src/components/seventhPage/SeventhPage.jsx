@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP, ScrollTrigger)
 
-import card1Img from "../../assets/projectsPic/agroGuard2.png"
+import card1Img from "../../assets/projectsPic/agroguard2.png"
 import card2Img from "../../assets/projectsPic/foodflow2.png"
 import card3Img from "../../assets/projectsPic/magma2.png"
 import "./SeventhPage.css"
